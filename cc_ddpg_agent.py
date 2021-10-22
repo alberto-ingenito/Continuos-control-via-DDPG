@@ -80,7 +80,7 @@ class Agents():
         if add_noise:
             noise_sample = self.noise.sample()
             actions += noise_sample
-        return np.clip(actions, -1, 1)
+        return np.clip(actions, -1, 1)   # Every entry in the action vector must be a number between -1 and 1.
 
     def reset(self):
         self.noise.reset()
