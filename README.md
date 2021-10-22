@@ -30,9 +30,8 @@ Using multiple arms is particularly efficient when GPU is available and the trai
 The state space for a single agent consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a 4 elements vector of torque values applicable to joints. Every entry in the action vector must be a number between -1 and 1.
 
 ## The solution
-Once trained, the agent can be seen in action in the Unity environment.  
-#<img width="451" alt="frame" #src="https://user-images.githubusercontent.com/53077127/112690757-a0374e00-8e7c-11eb-8c99-3f55124f14ad.png">  
-#[Click here to take a #look!](https://user-images.githubusercontent.com/53077127/112689969-4d10cb80-8e7b-11eb-82ce-e0cc986b2736.mp4)
+Once trained, the agent can be seen in action in the Unity environment.    
+#[Click here to take a #look!](https://user-images.githubusercontent.com/53077127/138491669-c4abcc72-b5bb-44da-90fc-d1b8786626cd.mp4)
 
 ## Installation
 Follow the instructions in the [DRLND GitHub repository](https://github.com/udacity/deep-reinforcement-learning#dependencies) to set up your Python environment. These instructions can be found in README.md at the root of the repository. You will install PyTorch, the ML-Agents toolkit, and a few more Python packages required to run the project.
