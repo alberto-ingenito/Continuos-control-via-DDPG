@@ -30,7 +30,8 @@ Using multiple arms is particularly efficient when GPU is available and the trai
 The state space for a single agent consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a 4 elements vector of torque values applicable to joints. Every entry in the action vector must be a number between -1 and 1.
 
 ## The solution
-Once trained, the agent can be seen in action in the Unity environment.    
+Once trained, the agent can be seen in action in the Unity environment.  
+![image](https://user-images.githubusercontent.com/53077127/138558931-35fef5d7-d7b1-43fb-95d0-d7d17981d9f5.png)
 #[Click here to take a #look!](https://user-images.githubusercontent.com/53077127/138491669-c4abcc72-b5bb-44da-90fc-d1b8786626cd.mp4)
 
 ## Installation
